@@ -1,5 +1,5 @@
-#ifndef CI_OPENGL_TEMPLATE_COMPLEX_HPP
-#define CI_OPENGL_TEMPLATE_COMPLEX_HPP
+#ifndef TestOpenGlTemplate_COMPLEX_HPP
+#define TestOpenGlTemplate_COMPLEX_HPP
 
 /**
  * @file complex.hpp

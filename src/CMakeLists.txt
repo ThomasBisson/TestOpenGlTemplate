@@ -3,7 +3,7 @@
 # Created by Spark on 28/04/2019.
 # ------------------------------------------------------------------------------
 
-project(ci_opengl_template)
+project(TestOpenGlTemplate)
 
 create_property(P_PROJECT_SOURCE_MODULES "")
 
@@ -17,7 +17,7 @@ add_subdirectory(mathematics)
 # ------------------------------------------------------------------------------
 # Main target details
 # ------------------------------------------------------------------------------
-# TODO: create a variable CI_OPENGL_TEMPLATE_PROJECT_SOURCE_MODULES
+# TODO: create a variable TestOpenGlTemplate_PROJECT_SOURCE_MODULES
 set(${PROJECT_NAME}_SOURCE_FILES main.cpp)
 set(${PROJECT_NAME}_INCLUDE_DIRS "") # by including this, we have access to all other submodules folders even from "examples" and "tests" folders
 set(${PROJECT_NAME}_LIBRARIES imgui glfw glad glm stb Box2D cppfs sfml-system sfml-window sfml-network sfml-graphics sfml-audio utils lua mathematics) # TODO: imgui before "glfw" and "glad" ?
